@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="CustomArchive only adds files and folders if the relative directory is not taken.">
+    <Position X="19.167" Y="3.219" Height="0.833" Width="1.752" />
+  </Comment>
+  <Class Name="CustomArchiver.Program">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CustomArchiver.CustomArchive">
+    <Position X="15" Y="0.5" Width="4" />
+    <AssociationLine Name="files" Type="CustomArchiver.EnhancedFileInfo" FixedFromPoint="true">
+      <Path>
+        <Point X="18.562" Y="4.045" />
+        <Point X="18.562" Y="5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.112" Y="0.616" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Files" Type="CustomArchiver.EnhancedFileInfo" FixedFromPoint="true">
+      <Path>
+        <Point X="15.5" Y="4.045" />
+        <Point X="15.5" Y="5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-2.105" Y="0.268" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>QAAAgAAAAIAAEBAAAAAAAAABAAAAAQAAAAAAhAAABIQ=</HashCode>
+      <FileName>CustomArchive.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="files" />
+      <Property Name="Files" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="CustomArchiver.Application">
+    <Position X="3" Y="0.5" Width="3" />
+    <AssociationLine Name="settings" Type="CustomArchiver.ApplicationSettings">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.12" Y="0.268" Height="0.182" Width="0.757" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Settings" Type="CustomArchiver.ApplicationSettings" FixedFromPoint="true">
+      <Path>
+        <Point X="5.5" Y="3.142" />
+        <Point X="5.5" Y="3.75" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.027" Y="0.289" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAgAAAAAAAAABAAASgAAAAgAACAEAAAAI=</HashCode>
+      <FileName>Application.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="settings" />
+      <Property Name="Settings" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CustomArchiver.ApplicationSettings">
+    <Position X="3" Y="3.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AgIAIAAAAAQIIIACCAACMAAgAhAAAAAAIAAIAAAAAAA=</HashCode>
+      <FileName>ApplicationSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CustomArchiver.EnhancedFileInfo">
+    <Position X="15" Y="5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>ADAAAAAQAAAAAAAAAAAAAEQAAABEAAAAAQAIAAEAAAA=</HashCode>
+      <FileName>EnhancedFileInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CustomArchiver.CustomArchiver">
+    <Position X="7.75" Y="0.5" Width="6.75" />
+    <TypeIdentifier>
+      <HashCode>AIIAAABACAIBYAgAAAAGAgAAAgAAAUACAAAIAAAIAAA=</HashCode>
+      <FileName>CustomArchiver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
